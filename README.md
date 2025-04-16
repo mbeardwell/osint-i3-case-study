@@ -1,11 +1,10 @@
 > **TL;DR**
-> 
+>
 > This project reconstructs the location and inferred residence of an anonymous video publisher using only public data. Techniques used include reverse image search, satellite image correlation, video frame analysis, and low-signal social metadata enumeration.
-> 
+>
 > 📁 See the `images/` folder for all processed frames used in this report.
 >
 > Tags: `#i3` `#osint` `#geolocation` `#recon` `#ethicalinvestigation`
-
 
 # Identity and Location Resolution from Minimal Public Signals: An Ethical OSINT Case Study
 
@@ -19,7 +18,7 @@ This investigation was conducted solely for research and professional developmen
 
 ## Introduction
 
-This case study demonstrates how analysis of publicly-accessible information — including video footage, social metadata, and satellite imagery — can resolve location and identity with very low-signal input. 
+This case study demonstrates how analysis of publicly-accessible information — including video footage, social metadata, and satellite imagery — can resolve location and identity with very low-signal input.
 
 In the UK, the investigative framework I will use is called 'I3' — 'Intelligence, Investigation, Inference' — which follows this information pipeline:
 
@@ -135,6 +134,26 @@ This report is anonymised — locations, video titles, video timestamps, persona
 
      If further assumptions were made, you could infer a likely flat number however such assumptions weren't convincing.
 
+### Resolving the Subject's Identity
+
+The goal of this section is to show how I went from the minimal-signal YouTube profile to a high resolution of personal metadata. I have redacted all personal information, URLs, and screenshots to protect the subject's privacy.
+
+- Pseudonymous YouTube to Personal LinkedIn
+
+  On the subject's earliest published video on YouTube, the description below links to a Python Jupyter Notebook file on Google Drive. The file's owner is still pseudonymous, but searching comments in this file on Google retrieves the same notebook uploaded to Google Colab by a personal email account - the handle revealing the owner's full name.
+
+  A Google Image search for this handle reveals a portrait of a person from a LinkedIn profile. The profile's owner is wearing the same university jumper as the subject in one of their videos. The subject's STEM-related YouTube account agrees with the claim that the LinkedIn profile studied a STEM subject. The profile photo is also consistent with the subject's face from the videos.
+
+- Personal LinkedIn to Personal Facebook
+
+  The LinkedIn profile didn't reveal much about the subject. It showed their face and their job history, but the detail isn't much better than the YouTube profile. Using the subject's name from the LinkedIn account, I searched Facebook. There are 43 accounts under that name, one of which stood out to me as having studied at the same university as the subject. The Facebook's profile photo matches both the subject in the video as well as the LinkedIn profile photo. This Facebook account can potentially infer the subject's social network and family composition as well as the locations that they are associated with.
+
+- Resolving More Personal Metadata
+
+  While searching open databases, I can use the information from the social media accounts to identify which results belong to the subject. On 'www.fastpeoplesearch.com', there were 15 results for the known full name. Ruling out 11 by age and another by researching the spouse, I’m left with three potential results. Only one of these has a connection to the same town as the Facebook profile has. It lists a person as as related whose name also appears as commenter on the Facebook profile.
+
+  Merging results from FastPeopleSearch with what is known already, a full name, date of birth to the nearest month, personal emails, list of connections and how they are related, a previous address and a present-day address within a group of 4 flats, and two social media profiles are found. A timeline of moving to university, marriage, graduation, moving states and starting the YouTube channel has been obtained.
+
 ## Conclusions
 
 I've demonstrated that efforts to separate online personas from real-world identities can be insufficient against an ethical, motivated, and capable actor using only publicly accessible data — let alone a malicious one. I've learnt how powerful structured public data can be and how important it is to maintain robust ethics. It also gave me practical experience with geolocation, social graph resolution, and efficient investigative tree search under uncertainty.
@@ -163,7 +182,10 @@ This case study exemplifies how publicly available information can compromise an
 
 - **Google/Yandex Reverse Image Search** — for identifying locations from frames
 - **Google Dorking** — for precise control over engine searches
-- **Google Earth and Google Maps** — visual correlation with terrain/building layouts
+- **Google Earth and Google Maps** — visual correlation with terrain/building layouts and plaque & flat number correlation
+- **Google Drive / Colab** — public access metadata leakage
+- **LinkedIn & Facebook** — open profiles
+- **FastPeopleSearch** — people index
 - **ImageMagick** — for posterisation, resizing, format conversion
 - **Bash scripting** — for reproducible image processing
 - **md5sum and identify** — to validate transformations and enforce consistency
@@ -173,6 +195,8 @@ This case study exemplifies how publicly available information can compromise an
 - Frame-by-frame inference from video footage
 - Visual feature matching across data formats (video ↔ satellite ↔ map)
 - Manual geolocation using architecture and object placement
+- Metadata pivoting — email handle to LinkedIn profile
+- Facial feature & clothing correlation
 - Ethical anonymisation through data suppression and abstraction
 - Posterisation for privacy-preserving visual analysis
 - Markdown-based structured documentation and visual explanation
