@@ -30,7 +30,7 @@ In this case study I use this framework to reveal locations and the identity of 
 
 I will list the film shoot locations in the order that I have identified them along with the video and its timestamp of when the location was filmed. I will explain with each one how I obtained precise GPS coordinates.
 
-This report is anonymised — locations, video titles, video timestamps, personal details and any other identifying information have not been included. I have transformed the original images using 'poserisation' to make it more difficult to use them to re-identify their source.
+This report is anonymised — locations, video titles, video timestamps, personal details and any other identifying information have not been included. I have transformed the original images using 'posterisation' to make it more difficult to use them to re-identify their source.
 
 ## Methodology
 
