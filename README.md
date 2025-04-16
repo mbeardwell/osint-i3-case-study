@@ -41,20 +41,18 @@ This report is anonymised — locations, video titles, video timestamps, persona
 
    - Farmers' Market ~08:10
 
-     <div style="display: flex; gap: 20px; margin: 1em 0;">
-       <figure style="width: 400px; height: auto; text-align: center; margin: 0;">
-         <div style="width: 100%; height: 225px; overflow: hidden;">
-           <img src="images/grocery-youtube.webp" alt="Posterised video frame" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
-         </div>
-         <figcaption style="margin-top: 0.5em;">Posterised frame from Video A showing the storefront layout.</figcaption>
-       </figure>
-       <figure style="width: 400px; height: auto; text-align: center; margin: 0;">
-         <div style="width: 100%; height: 225px; overflow: hidden;">
-           <img src="images/grocery-streetview.webp" alt="Posterised matching public image" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
-         </div>
-         <figcaption style="margin-top: 0.5em;">Posterised public image confirming feature match.</figcaption>
-       </figure>
-     </div>
+     <table>
+       <tr>
+         <td align="center" width="400">
+           <img src="images/grocery-youtube.webp" width="400"/><br/>
+           Posterised frame from Video A showing the storefront layout.
+         </td>
+         <td align="center" width="400">
+           <img src="images/grocery-streetview.webp" width="400"/><br/>
+           Posterised public image confirming feature match.
+         </td>
+       </tr>
+     </table>
 
      Reverse image searching a video frame through Yandex.com provided many results, one of which I could immediately identify to be this same building, referred to as their “local” farmers’ market in the video. This provided a foothold to begin resolving other locations in the video content.
 
@@ -66,20 +64,18 @@ This report is anonymised — locations, video titles, video timestamps, persona
 
    - Canyon Trail ~12:00
 
-     <div style="display: flex; gap: 20px; margin: 1em 0;">
-       <figure style="width: 400px; height: auto; text-align: center; margin: 0;">
-         <div style="width: 100%; height: 225px; overflow: hidden;">
-           <img src="images/canyon-video.webp" alt="Posterised video frame" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
-         </div>
-         <figcaption style="margin-top: 0.5em;">Posterised frame from Video B showing the town from the mountain.</figcaption>
-       </figure>
-       <figure style="width: 400px; height: auto; text-align: center; margin: 0;">
-         <div style="width: 100%; height: 225px; overflow: hidden;">
-           <img src="images/canyon-google.webp" alt="Posterised matching public image" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
-         </div>
-         <figcaption style="margin-top: 0.5em;">Posterised public image confirming feature match.</figcaption>
-       </figure>
-     </div>
+     <table>
+       <tr>
+         <td align="center" width="400">
+           <img src="images/canyon-video.webp" width="400"/><br/>
+           Posterised frame from Video B showing the town from the mountain.
+         </td>
+         <td align="center" width="400">
+           <img src="images/canyon-google.webp" width="400"/><br/>
+           Posterised public image confirming feature match.
+         </td>
+       </tr>
+     </table>
 
      After extracting a video frame looking down on a town from up on a mountain, I opened an image editing tool and highlighted key features such as roads and buildings.
 
@@ -95,20 +91,18 @@ This report is anonymised — locations, video titles, video timestamps, persona
 
    - Softball Field ~00:30
 
-     <div style="display: flex; gap: 20px; margin: 1em 0;">
-       <figure style="width: 400px; height: auto; text-align: center; margin: 0;">
-         <div style="width: 100%; height: 225px; overflow: hidden;">
-           <img src="images/pavement-video.webp" alt="Posterised video frame" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
-         </div>
-         <figcaption style="margin-top: 0.5em;">Posterised frame from Video C showing subject walking near the complex.</figcaption>
-       </figure>
-       <figure style="width: 400px; height: auto; text-align: center; margin: 0;">
-         <div style="width: 100%; height: 225px; overflow: hidden;">
-           <img src="images/pavement-drone.webp" alt="Posterised matching drone footage frame" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
-         </div>
-         <figcaption style="margin-top: 0.5em;">Posterised drone footage frame as it flies through the same location.</figcaption>
-       </figure>
-     </div>
+     <table>
+       <tr>
+         <td align="center" width="400">
+           <img src="images/pavement-video.webp" width="400"/><br/>
+           Posterised frame from Video C showing subject walking near the complex.
+         </td>
+         <td align="center" width="400">
+           <img src="images/pavement-drone.webp" width="400"/><br/>
+           Posterised drone footage frame as it flies through the same location.
+         </td>
+       </tr>
+     </table>
 
      Now that I have the location for the more easily-identifiable scene just seconds later, I can come back to the scene of the subject walking on the pavement. As Google Street View's coverage of this area was insufficient, I searched YouTube for videos shot near the location of the housing complex in the later scene. I came across some drone footage and followed the drone's path, identifying buildings it flew past by comparing them to buildings on Google Street View. With the drone's flight trajectory mapped, I could identify the location where is flies past the same portion of pavement in Video C.
 
@@ -120,20 +114,18 @@ This report is anonymised — locations, video titles, video timestamps, persona
 
    - Narrowing It Down to Just Four Flats
 
-     <div style="display: flex; gap: 20px; margin: 1em 0;">
-       <figure style="width: 400px; height: auto; text-align: center; margin: 0;">
-         <div style="width: 100%; height: 225px; overflow: hidden;">
-           <img src="images/garden-balcony.webp" alt="Posterised video frame" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
-         </div>
-         <figcaption style="margin-top: 0.5em;">Posterised frame from Video C showing the view of the garden area from the flat's balcony.</figcaption>
-       </figure>
-       <figure style="width: 400px; height: auto; text-align: center; margin: 0;">
-         <div style="width: 100%; height: 225px; overflow: hidden;">
-           <img src="images/garden-satellite.webp" alt="Posterised satellite photo" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
-         </div>
-         <figcaption style="margin-top: 0.5em;">Posterised satellite photo showing the inferred flat complex.</figcaption>
-       </figure>
-     </div>
+     <table>
+       <tr>
+         <td align="center" width="400">
+           <img src="images/garden-balcony.webp" width="400"/><br/>
+           Posterised frame from Video C showing the view of the garden area from the flat's balcony.
+         </td>
+         <td align="center" width="400">
+           <img src="images/garden-satellite.webp" width="400"/><br/>
+           Posterised satellite photo showing the inferred flat complex.
+         </td>
+       </tr>
+     </table>
 
      In Video C, there is a shot of the subject in the shared garden area from above looking down from a balcony of one of the flats. Matching the features such as trees, benches, and the playground to a satellite photo on Google Maps, I could infer that the balcony was located on the right half of the southern-most block of flats in the complex. A brown and green bench are adjacent along with an orthogonal lighter bench. These benches roughly correspond to the same near the southern-most block however the orientations and positions slightly differ in the older satellite images.
 
