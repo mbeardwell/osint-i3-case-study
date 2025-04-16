@@ -152,7 +152,7 @@ The goal of this section is to show how I went from the minimal-signal YouTube p
 
   While searching open databases, I can use the information from the social media accounts to identify which results belong to the subject. On 'www.fastpeoplesearch.com', there were 15 results for the known full name. Ruling out 11 by age and another by researching the spouse, I’m left with three potential results. Only one of these has a connection to the same town as the Facebook profile has. It lists a person as as related whose name also appears as commenter on the Facebook profile.
 
-  Merging results from FastPeopleSearch with what is known already, a full name, date of birth to the nearest month, personal emails, list of connections and how they are related, a previous address and a present-day address within a group of 4 flats, and two social media profiles are found. A timeline of moving to university, marriage, graduation, moving states and starting the YouTube channel has been obtained.
+  Merging results from FastPeopleSearch with what is known already, a full name, date of birth to the nearest month, personal emails, list of connections and how they are related, a previous address and a present-day address within a group of flats, and two social media profiles are found. A timeline of moving to university, marriage, graduation, moving states and starting the YouTube channel has been obtained.
 
 ## Conclusions
 
