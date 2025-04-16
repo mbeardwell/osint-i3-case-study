@@ -6,11 +6,11 @@
 >
 > Tags: `#i3` `#osint` `#geolocation` `#recon` `#ethicalinvestigation`
 
-# Identity and Location Resolution from Minimal Public Signals: An Ethical OSINT Case Study
+# Location and Identity Resolution from Minimal Public Signals: An Ethical OSINT Case Study
 
 ## Abstract
 
-This case study explores investigative techniques for reconstructing identity and location from extremely limited input — sparse, unstructured video publications on YouTube. It was conducted to support my professional portfolio demonstrating capability in low-signal investigative techniques, geolocation, and ethical open-source investigation relevant to cybersecurity and threat intelligence. The objective was to assess the viability of investigation methods under information poverty.
+This case study explores investigative techniques for reconstructing location and identity from extremely limited input — sparse, unstructured video publications on YouTube. It was conducted to support my professional portfolio demonstrating capability in low-signal investigative techniques, geolocation, and ethical open-source investigation relevant to cybersecurity and threat intelligence. The objective was to assess the viability of investigation methods under information poverty.
 
 ## Ethical Declaration
 
