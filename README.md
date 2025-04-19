@@ -1,3 +1,10 @@
+# Location and Identity Resolution from Minimal Public Signals: An Ethical OSINT Case Study
+<br/>
+by Matthew Beardwell
+<br/>
+<br/>
+<br/>
+---
 > **TL;DR**
 >
 > This project reconstructs the location, inferred residence, and personal metadata of an anonymous video publisher using only public data. Techniques used include reverse image search, satellite image correlation, video frame analysis, and low-signal social metadata enumeration.
@@ -5,23 +12,22 @@
 > 📁 See the `images/` folder for all processed frames used in this report.
 >
 > Tags: `#i3` `#osint` `#geolocation` `#recon` `#ethicalinvestigation`
+---
 
----
-abstract: |
-  This case study explores investigative techniques for reconstructing
-  location and identity from extremely limited input — sparse,
-  unstructured video publications on YouTube. It was conducted to
-  support my professional portfolio demonstrating capability in
-  low-signal investigative techniques, geolocation, and ethical
-  open-source investigation relevant to cybersecurity and threat
-  intelligence. The objective was to assess the viability of
-  investigation methods under information poverty.
-author:
-- Matthew Beardwell
-date: Revised
-title: "Location and Identity Resolution from Minimal Public Signals: An
-  Ethical OSINT Case Study"
----
+<div class="center">
+
+**Abstract**
+
+</div>
+
+This case study explores investigative techniques for reconstructing
+location and identity from extremely limited input — sparse,
+unstructured video publications on YouTube. It was conducted to support
+my professional portfolio demonstrating capability in low-signal
+investigative techniques, geolocation, and ethical open-source
+investigation relevant to cybersecurity and threat intelligence. The
+objective was to assess the viability of investigation methods under
+information poverty.
 
 <div class="center">
 
