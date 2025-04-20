@@ -3,7 +3,7 @@
 by Matthew Beardwell
 <br/>
 <br/>
-<br/>
+
 ---
 > **TL;DR**
 >
@@ -13,6 +13,7 @@ by Matthew Beardwell
 >
 > Tags: `#i3` `#osint` `#geolocation` `#recon` `#ethicalinvestigation`
 ---
+
 
 <div class="center">
 

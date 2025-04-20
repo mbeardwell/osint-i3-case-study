@@ -1,3 +1,2 @@
 build:
-	chmod +x ./build.sh && ./build.sh
-	
+	chmod +x ./src/build.sh && ./src/build.sh

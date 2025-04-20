@@ -4,7 +4,7 @@ set -euo pipefail
 REQUIREMENTS=(pandoc texlive-latex-recommended texlive-latex-extra)
 
 ## Input
-TLDR="./docs/tldr.md"	
+TLDR="./docs/tldr.md"
 LATEX="./docs/report.tex"
 
 ## Output
@@ -102,10 +102,11 @@ author=$(grep -Eo '\\author\{.*\}' "$LATEX" | sed 's/\\author{//; s/}//')
 	echo "by $author"
 	echo "<br/>"
 	echo "<br/>"
-	echo "<br/>"
+	echo ""
 	echo "---"
 	cat "$TLDR"
 	echo "---"
+	echo ""
 } > "$HEADER_MD"
 
 # Create temporary $REPORT_CLEAN_MD
