@@ -1,6 +1,5 @@
 > [Download the report](docs/report.pdf) 📄
 # Location and Identity Resolution from Minimal Public Signals: An Ethical OSINT Case Study
-<br/>
 Matthew Beardwell
 <br/>
 <br/>
