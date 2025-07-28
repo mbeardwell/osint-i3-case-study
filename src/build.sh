@@ -99,7 +99,6 @@ author=$(grep -Eo '\\author\{.*\}' "$LATEX" | sed 's/\\author{//; s/}//')
 {
 	echo "> [Download the report](docs/report.pdf) 📄"
 	echo "# $title"
-	echo "<br/>"
 	echo "$author"
 	echo "<br/>"
 	echo "<br/>"
