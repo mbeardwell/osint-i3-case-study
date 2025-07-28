@@ -104,9 +104,7 @@ author=$(grep -Eo '\\author\{.*\}' "$LATEX" | sed 's/\\author{//; s/}//')
 	echo "<br/>"
 	echo "<br/>"
 	echo ""
-	echo "---"
 	cat "$TLDR"
-	echo "---"
 	echo ""
 } > "$HEADER_MD"
 
