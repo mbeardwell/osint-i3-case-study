@@ -97,7 +97,7 @@ title=$(grep -Eo '\\title\{.*\}' "$LATEX" | sed 's/\\title{//; s/}//')
 author=$(grep -Eo '\\author\{.*\}' "$LATEX" | sed 's/\\author{//; s/}//')
 
 {
-	echo "> [Download the report](https://raw.githubusercontent.com/mbeardwell/arm-fp-emu/main/docs/report.pdf) 📄"
+	echo "> [Download the report](https://raw.githubusercontent.com/mbeardwell/osint-i3-case-study/main/docs/report.pdf) 📥"
 	echo "# $title"
 	echo "$author"
 	echo "<br/>"
