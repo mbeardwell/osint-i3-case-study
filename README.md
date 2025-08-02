@@ -102,13 +102,6 @@ building, referred to as their “local” farmers’ market in the video.
 This provided a foothold to begin resolving other locations in the video
 content.
 
-#### Pet Shop ∼<!-- -->10:40
-
-Given the footage was filmed in a pet shop, I searched for pet shops
-near the rental property address I found earlier in Google Maps.
-Enumerating them all, I found one with user-submitted photos of the
-inside that matched the features in the video.
-
 ### Video B
 
 #### Canyon Trail ∼<!-- -->12:00
@@ -187,6 +180,15 @@ and followed the drone’s path, identifying buildings it flew past by
 comparing them to buildings on Google Street View. With the drone’s
 flight trajectory mapped, I could identify the location where is flies
 past the same portion of pavement in Video C.
+
+### Video A Again
+
+#### Pet Shop ∼<!-- -->10:40
+
+Given the footage was filmed in a pet shop, I searched for pet shops
+near the rental property address I found earlier in Google Maps.
+Enumerating them all, I found one with user-submitted photos of the
+inside that matched the features in the video.
 
 ## Narrowing Residence Cluster from Prior Observations
 
