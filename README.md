@@ -1,4 +1,4 @@
-> [Download the report](docs/report.pdf) 📄
+> [Download the report](https://raw.githubusercontent.com/mbeardwell/osint-i3-case-study/main/docs/report.pdf) 📥
 # Location and Identity Resolution from Minimal Public Signals: An Ethical OSINT Case Study
 Matthew Beardwell
 <br/>
@@ -46,7 +46,8 @@ information pipeline:
 
 <div class="center">
 
-Raw Data → Processed Data → (Investigation) → Intelligence Report
+Raw Data $\rightarrow$ Processed Data $\rightarrow$ (Investigation)
+$\rightarrow$ Intelligence Report
 
 </div>
 
@@ -80,20 +81,20 @@ subject’s identity and personal metadata.
 
 ### Video A
 
-#### Farmers’ Market ∼<!-- -->08:10
+#### Farmers’ Market $\sim$<!-- -->08:10
 
 <figure>
-<img src="images/grocery-youtube.png"
-alt="Posterised frame from Video A showing the storefront layout." />
-<figcaption aria-hidden="true">Posterised frame from Video A showing the
-storefront layout.</figcaption>
+<figure>
+<img src="images/grocery-youtube.png" />
+<figcaption>Posterised frame from Video A showing the storefront
+layout.</figcaption>
 </figure>
-
 <figure>
-<img src="images/grocery-streetview.png"
-alt="Posterised public image confirming feature match." />
-<figcaption aria-hidden="true">Posterised public image confirming
-feature match.</figcaption>
+<img src="images/grocery-streetview.png" />
+<figcaption>Posterised public image confirming feature
+match.</figcaption>
+</figure>
+<figcaption>Comparison of video frame and public image.</figcaption>
 </figure>
 
 Reverse image searching a video frame through Yandex.com provided many
@@ -102,7 +103,7 @@ building, referred to as their “local” farmers’ market in the video.
 This provided a foothold to begin resolving other locations in the video
 content.
 
-#### Pet Shop ∼<!-- -->10:40
+#### Pet Shop $\sim$<!-- -->10:40
 
 Given the footage was filmed in a pet shop, I searched for pet shops
 near the rental property address I found earlier in Google Maps.
@@ -111,20 +112,20 @@ inside that matched the features in the video.
 
 ### Video B
 
-#### Canyon Trail ∼<!-- -->12:00
+#### Canyon Trail $\sim$<!-- -->12:00
 
 <figure>
-<img src="images/canyon-video.png"
-alt="Posterised frame from Video B showing the town from the mountain." />
-<figcaption aria-hidden="true">Posterised frame from Video B showing the
-town from the mountain.</figcaption>
+<figure>
+<img src="images/canyon-video.png" />
+<figcaption>Posterised frame from Video B showing the town from the
+mountain.</figcaption>
 </figure>
-
 <figure>
-<img src="images/canyon-google.png"
-alt="Posterised public image confirming feature match." />
-<figcaption aria-hidden="true">Posterised public image confirming
-feature match.</figcaption>
+<img src="images/canyon-google.png" />
+<figcaption>Posterised public image confirming feature
+match.</figcaption>
+</figure>
+<figcaption>Comparison of video frame and public image.</figcaption>
 </figure>
 
 After extracting a video frame looking down on a town from up on a
@@ -150,7 +151,7 @@ location.
 
 ### Video C
 
-#### University-owned Housing Complex ∼<!-- -->00:40
+#### University-owned Housing Complex $\sim$<!-- -->00:40
 
 The footage shows the subject walking on a pavement then it cuts to them
 standing outside a flat complex. I searched Google Images for
@@ -162,20 +163,20 @@ research found three other similar housing complexes with a shared
 garden area like this in the area so I mentally noted that the footage
 could’ve also been filmed at one of the others.
 
-#### Softball Field ∼<!-- -->00:30
+#### Softball Field $\sim$<!-- -->00:30
 
 <figure>
-<img src="images/pavement-video.png"
-alt="Posterised frame from Video C showing subject walking near the complex." />
-<figcaption aria-hidden="true">Posterised frame from Video C showing
-subject walking near the complex.</figcaption>
+<figure>
+<img src="images/pavement-video.png" />
+<figcaption>Posterised frame from Video C showing subject walking near
+the complex.</figcaption>
 </figure>
-
 <figure>
-<img src="images/pavement-drone.png"
-alt="Posterised drone footage frame as it flies through the same location." />
-<figcaption aria-hidden="true">Posterised drone footage frame as it
-flies through the same location.</figcaption>
+<img src="images/pavement-drone.png" />
+<figcaption>Posterised drone footage frame as it flies through the same
+location.</figcaption>
+</figure>
+<figcaption>Comparison of video frame and drone footage.</figcaption>
 </figure>
 
 Now that I have the location for the more easily-identifiable scene just
@@ -193,27 +194,28 @@ past the same portion of pavement in Video C.
 ### Inferring the Correct Flat Complex
 
 In Video C, the transition from the scene of the subject walking along a
-pavement outside their flat complex at ∼<!-- -->00:30 to in the shared
-garden area under their balcony at ∼<!-- -->00:40 suggests they were
-walking home. Using mapping tools, I notated the direction of travel and
-with two maps of the cluster of all four flat complexes of the same type
-that I had found online, it could be inferred that they lived in the
-northern-most complex.
+pavement outside their flat complex at $\sim$<!-- -->00:30 to in the
+shared garden area under their balcony at $\sim$<!-- -->00:40 suggests
+they were walking home. Using mapping tools, I notated the direction of
+travel and with two maps of the cluster of all four flat complexes of
+the same type that I had found online, it could be inferred that they
+lived in the northern-most complex.
 
 ### Narrowing It Down to Just Four Flats
 
 <figure>
-<img src="images/garden-balcony.png"
-alt="Posterised frame from Video C showing the view of the garden area from the flat’s balcony." />
-<figcaption aria-hidden="true">Posterised frame from Video C showing the
-view of the garden area from the flat’s balcony.</figcaption>
-</figure>
-
 <figure>
-<img src="images/garden-satellite.png"
-alt="Posterised satellite photo showing the inferred flat complex." />
-<figcaption aria-hidden="true">Posterised satellite photo showing the
-inferred flat complex.</figcaption>
+<img src="images/garden-balcony.png" />
+<figcaption>Posterised frame from Video C showing the view of the garden
+area from the flat’s balcony.</figcaption>
+</figure>
+<figure>
+<img src="images/garden-satellite.png" />
+<figcaption>Posterised satellite photo showing the inferred flat
+complex.</figcaption>
+</figure>
+<figcaption>Comparison of video frame and satellite
+imagery.</figcaption>
 </figure>
 
 In Video C, there is a shot of the subject in the shared garden area
@@ -305,45 +307,45 @@ data collection as well as the tools I used to create the report.
 
 ### Tools
 
--   **Google/Yandex Reverse Image Search** for identifying locations
-    from frames
+- **Google/Yandex Reverse Image Search** for identifying locations from
+  frames
 
--   **Google Dorking** for precise control over engine searches
+- **Google Dorking** for precise control over engine searches
 
--   **Google Earth and Google Maps** for visual correlation with
-    terrain/building layouts and plaque & flat number correlation
+- **Google Earth and Google Maps** for visual correlation with
+  terrain/building layouts and plaque & flat number correlation
 
--   **Google Drive / Colab** showcasing public access metadata leakage
+- **Google Drive / Colab** showcasing public access metadata leakage
 
--   **LinkedIn & Facebook** for open profiles
+- **LinkedIn & Facebook** for open profiles
 
--   **FastPeopleSearch** as a people index
+- **FastPeopleSearch** as a people index
 
--   **ImageMagick** for posterisation, resizing, format conversion
+- **ImageMagick** for posterisation, resizing, format conversion
 
--   **Bash scripting** for reproducible image processing
+- **Bash scripting** for reproducible image processing
 
--   **md5sum and identify** to validate transformations and enforce
-    consistency
+- **md5sum and identify** to validate transformations and enforce
+  consistency
 
 ### Techniques
 
--   Frame-by-frame inference from video footage
+- Frame-by-frame inference from video footage
 
--   Visual feature matching across data formats (video ↔ satellite ↔
-    map)
+- Visual feature matching across data formats (video $\leftrightarrow$
+  satellite $\leftrightarrow$ map)
 
--   Manual geolocation using architecture and object placement
+- Manual geolocation using architecture and object placement
 
--   Metadata pivoting (email handle to LinkedIn profile)
+- Metadata pivoting (email handle to LinkedIn profile)
 
--   Facial feature & clothing correlation
+- Facial feature & clothing correlation
 
--   Ethical anonymisation through data suppression and abstraction
+- Ethical anonymisation through data suppression and abstraction
 
--   Posterisation for privacy-preserving visual analysis
+- Posterisation for privacy-preserving visual analysis
 
--   Markdown-based structured documentation and visual explanation
+- Markdown-based structured documentation and visual explanation
 
 # Conclusions
 
@@ -362,28 +364,28 @@ privacy-aware system design.
 
 # Data Sources
 
--   YouTube video uploads
+- YouTube video uploads
 
-    -   Video content and descriptions
+  - Video content and descriptions
 
-    -   Drone footage comparisons
+  - Drone footage comparisons
 
--   Public Colab notebooks (links contained in video upload metadata)
+- Public Colab notebooks (links contained in video upload metadata)
 
--   Image search engines
+- Image search engines
 
-    -   Yandex Reverse Image Search
+  - Yandex Reverse Image Search
 
-    -   Google Images
+  - Google Images
 
--   Personal metadata
+- Personal metadata
 
-    -   LinkedIn & Facebook (public profiles only)
+  - LinkedIn & Facebook (public profiles only)
 
-    -   FastPeopleSearch (US people index)
+  - FastPeopleSearch (US people index)
 
--   Maps (conventional, satellite, and 3D)
+- Maps (conventional, satellite, and 3D)
 
-    -   University-provided online housing maps
+  - University-provided online housing maps
 
-    -   Google Maps / Street View / Earth
+  - Google Maps / Street View / Earth
