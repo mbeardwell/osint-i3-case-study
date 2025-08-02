@@ -1,4 +1,4 @@
-> [Download the report](docs/report.pdf) 📄
+> [Download the report](https://raw.githubusercontent.com/mbeardwell/osint-i3-case-study/main/docs/report.pdf) 📥
 # Location and Identity Resolution from Minimal Public Signals: An Ethical OSINT Case Study
 Matthew Beardwell
 <br/>
@@ -80,7 +80,7 @@ subject’s identity and personal metadata.
 
 ### Video A
 
-#### Farmers’ Market ∼<!-- -->08:10
+#### Farmers’ Market \~08:10
 
 <figure>
 <img src="images/grocery-youtube.png"
@@ -104,7 +104,7 @@ content.
 
 ### Video B
 
-#### Canyon Trail ∼<!-- -->12:00
+#### Canyon Trail \~12:00
 
 <figure>
 <img src="images/canyon-video.png"
@@ -143,7 +143,7 @@ location.
 
 ### Video C
 
-#### University-owned Housing Complex ∼<!-- -->00:40
+#### University-owned Housing Complex \~00:40
 
 The footage shows the subject walking on a pavement then it cuts to them
 standing outside a flat complex. I searched Google Images for
@@ -155,7 +155,7 @@ research found three other similar housing complexes with a shared
 garden area like this in the area so I mentally noted that the footage
 could’ve also been filmed at one of the others.
 
-#### Softball Field ∼<!-- -->00:30
+#### Softball Field \~00:30
 
 <figure>
 <img src="images/pavement-video.png"
@@ -183,7 +183,7 @@ past the same portion of pavement in Video C.
 
 ### Video A Again
 
-#### Pet Shop ∼<!-- -->10:40
+#### Pet Shop \~10:40
 
 Given the footage was filmed in a pet shop, I searched for pet shops
 near the rental property address I found earlier in Google Maps.
@@ -195,12 +195,12 @@ inside that matched the features in the video.
 ### Inferring the Correct Flat Complex
 
 In Video C, the transition from the scene of the subject walking along a
-pavement outside their flat complex at ∼<!-- -->00:30 to in the shared
-garden area under their balcony at ∼<!-- -->00:40 suggests they were
-walking home. Using mapping tools, I notated the direction of travel and
-with two maps of the cluster of all four flat complexes of the same type
-that I had found online, it could be inferred that they lived in the
-northern-most complex.
+pavement outside their flat complex at \~00:30 to in the shared garden
+area under their balcony at \~00:40 suggests they were walking home.
+Using mapping tools, I notated the direction of travel and with two maps
+of the cluster of all four flat complexes of the same type that I had
+found online, it could be inferred that they lived in the northern-most
+complex.
 
 ### Narrowing It Down to Just Four Flats
 
