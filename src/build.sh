@@ -96,11 +96,12 @@ title=$(grep -Eo '\\title\{.*\}' "$LATEX" | sed 's/\\title{//; s/}//')
 author=$(grep -Eo '\\author\{.*\}' "$LATEX" | sed 's/\\author{//; s/}//')
 
 cat << EOF > "$HEADER_MD"
-> [Download the report](https://raw.githubusercontent.com/mbeardwell/osint-i3-case-study/main/docs/report.pdf) 📥
-
 # $title
 
 This repository contains an OSINT case study that demonstrates geolocation and identity resolution under information poverty using only publicly accessible data. It was conducted to form part of my portfolio and has relevance to threat intelligence, investigational skills, and cybersecurity. All PII is anonymised. 
+
+> [Download the report](https://raw.githubusercontent.com/mbeardwell/osint-i3-case-study/main/docs/report.pdf) 📥
+
 <br/>
 <br/>
 
