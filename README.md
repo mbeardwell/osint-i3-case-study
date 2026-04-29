@@ -1,7 +1,8 @@
 > [Download the report](https://raw.githubusercontent.com/mbeardwell/osint-i3-case-study/main/docs/report.pdf) 📥
 
 # Location and Identity Resolution from Minimal Public Signals: An Ethical OSINT Case Study
-Matthew Beardwell
+
+This repository contains an OSINT case study that demonstrates geolocation and identity resolution under information poverty using only publicly accessible data. It was conducted to form part of my portfolio and has relevance to threat intelligence, investigational skills, and cybersecurity. All PII is anonymised. 
 <br/>
 <br/>
 
